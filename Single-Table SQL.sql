@@ -1,4 +1,6 @@
 -- Step 1: Create Database (Optional)
+CREATE DATABASE IF NOT EXISTS myDatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE myDatabase;
 
 -- Step 2: Create Table
 CREATE TABLE Ages (
